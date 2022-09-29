@@ -53,11 +53,15 @@
       "required": true
     },
     "avatar_image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "phone": {
+      "type": "string",
       "required": true
     }
   }
