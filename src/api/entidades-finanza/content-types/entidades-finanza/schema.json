@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "entidades_financieras",
+  "info": {
+    "singularName": "entidades-finanza",
+    "pluralName": "entidades-financieras",
+    "displayName": "EntidadesFinancieras"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "businessName": {
+      "type": "string",
+      "required": true
+    },
+    "businessSocialReason": {
+      "type": "text",
+      "required": true
+    },
+    "investments": {
+      "type": "decimal",
+      "required": true
+    },
+    "tipoDeInversion": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "password": {
+      "type": "password",
+      "required": true
+    }
+  }
+}
