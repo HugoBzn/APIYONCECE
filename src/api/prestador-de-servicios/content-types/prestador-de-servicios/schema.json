@@ -24,7 +24,7 @@
       "type": "string",
       "required": true
     },
-    "businesstype": {
+    "businessType": {
       "type": "string",
       "required": true
     },
@@ -48,20 +48,32 @@
       "type": "string",
       "required": true
     },
-    "financialState": {
-      "type": "string",
-      "required": true
-    },
-    "loanAmount": {
-      "type": "string",
-      "required": true
-    },
     "email": {
       "type": "email",
       "required": true
     },
     "password": {
       "type": "password",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "loanAmount": {
+      "type": "decimal",
+      "required": true
+    },
+    "financialState": {
+      "type": "decimal",
+      "required": true
+    },
+    "avatar_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
       "required": true
     }
   }
