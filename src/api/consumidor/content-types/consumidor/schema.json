@@ -63,7 +63,7 @@
     "password": {
       "type": "string",
       "required": true,
-      "maxLength": 12,
+      "maxLength": 14,
       "minLength": 8
     }
   }
