@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prestadores_de_servicios",
+  "info": {
+    "singularName": "prestador-de-servicios",
+    "pluralName": "prestadores-de-servicios",
+    "displayName": "PrestadoresDeServicios",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "lastName": {
+      "type": "string",
+      "required": true
+    },
+    "secondLastName": {
+      "type": "string",
+      "required": true
+    },
+    "businesstype": {
+      "type": "string",
+      "required": true
+    },
+    "age": {
+      "type": "string",
+      "required": true
+    },
+    "ethnicity": {
+      "type": "string",
+      "required": true
+    },
+    "genre": {
+      "type": "string",
+      "required": true
+    },
+    "operationYears": {
+      "type": "string",
+      "required": true
+    },
+    "rfc": {
+      "type": "string",
+      "required": true
+    },
+    "financialState": {
+      "type": "string",
+      "required": true
+    },
+    "loanAmount": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "password": {
+      "type": "password",
+      "required": true
+    }
+  }
+}
