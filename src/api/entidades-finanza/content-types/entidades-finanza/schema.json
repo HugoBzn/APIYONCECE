@@ -4,7 +4,8 @@
   "info": {
     "singularName": "entidades-finanza",
     "pluralName": "entidades-financieras",
-    "displayName": "EntidadesFinancieras"
+    "displayName": "EntidadesFinancieras",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -15,16 +16,12 @@
       "type": "string",
       "required": true
     },
-    "businessSocialReason": {
-      "type": "text",
+    "businessReason": {
+      "type": "string",
       "required": true
     },
     "investments": {
       "type": "decimal",
-      "required": true
-    },
-    "tipoDeInversion": {
-      "type": "string",
       "required": true
     },
     "phone": {
@@ -36,7 +33,29 @@
       "required": true
     },
     "password": {
-      "type": "password",
+      "type": "string",
+      "required": true,
+      "maxLength": 12,
+      "minLength": 8
+    },
+    "inversionType": {
+      "type": "string",
+      "required": true
+    },
+    "developmentOfBusiness": {
+      "type": "string",
+      "required": true
+    },
+    "avatar_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "address": {
+      "type": "string",
       "required": true
     }
   }

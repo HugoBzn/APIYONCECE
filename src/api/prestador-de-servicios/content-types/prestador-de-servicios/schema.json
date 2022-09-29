@@ -52,10 +52,6 @@
       "type": "email",
       "required": true
     },
-    "password": {
-      "type": "password",
-      "required": true
-    },
     "phone": {
       "type": "string",
       "required": true
@@ -69,11 +65,21 @@
       "required": true
     },
     "avatar_image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "password": {
+      "type": "string",
+      "required": true,
+      "maxLength": 12,
+      "minLength": 8
+    },
+    "address": {
+      "type": "string",
       "required": true
     }
   }
