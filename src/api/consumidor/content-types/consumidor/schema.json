@@ -37,9 +37,12 @@
       "required": true
     },
     "genre": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::genre.genre"
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "string",
+      "required": true
     },
     "email": {
       "type": "email",
