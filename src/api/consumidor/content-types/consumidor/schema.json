@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "consumidores",
+  "info": {
+    "singularName": "consumidor",
+    "pluralName": "consumidores",
+    "displayName": "Consumidor",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "lastName": {
+      "type": "string",
+      "required": true
+    },
+    "secondLastName": {
+      "type": "string",
+      "required": true
+    },
+    "ocupation": {
+      "type": "string",
+      "required": true
+    },
+    "age": {
+      "type": "string",
+      "required": true
+    },
+    "ethnicity": {
+      "type": "string",
+      "required": true
+    },
+    "genre": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::genre.genre"
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "password": {
+      "type": "password",
+      "required": true
+    }
+  }
+}
