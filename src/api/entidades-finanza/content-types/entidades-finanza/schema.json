@@ -57,6 +57,11 @@
     "address": {
       "type": "string",
       "required": true
+    },
+    "money": {
+      "type": "decimal",
+      "required": true,
+      "min": 0
     }
   }
 }

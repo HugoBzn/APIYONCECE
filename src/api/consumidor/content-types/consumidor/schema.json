@@ -65,6 +65,11 @@
       "required": true,
       "maxLength": 14,
       "minLength": 8
+    },
+    "money": {
+      "type": "decimal",
+      "required": true,
+      "min": 0
     }
   }
 }
